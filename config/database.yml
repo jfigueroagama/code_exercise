@@ -2,7 +2,6 @@
 #
 # Install the pg driver:
 #   gem install pg
-#
 # Configure Using Gemfile
 # gem 'pg'
 #

@@ -10,9 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170212234609) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "parties", force: :cascade do |t|
+    t.string   "host_name"
+    t.string   "host_email"
+    t.integer  "numgsts"
+    t.text     "guest_names"
+    t.string   "venue"
+    t.string   "location"
+    t.string   "theme"
+    t.datetime "when"
+    t.datetime "when_its_over"
+    t.text     "descript"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.index ["host_email"], name: "index_parties_on_host_email", using: :btree
+    t.index ["host_name"], name: "index_parties_on_host_name", using: :btree
+  end
 
 end

@@ -1,24 +1,16 @@
-# README
+# RFA Code Exercise
+This exercise involves improving a fictional subset of a Ruby on Rails 5.x application.  It only contains a model, controller, and two views.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You should assume the technology stack used for this code includes:
+* Ruby on Rails 5.x
+* Ruby 2.3.x (MRI)
+* PostgreSQL Database
+* ERB
+* jQuery
+* Moment.js
 
-Things you may want to cover:
+## Instructions
 
-* Ruby version
+Refactor and improve the code.  Add directories/files as needed.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You are not expected to run the code or make this work as a real Rails application.

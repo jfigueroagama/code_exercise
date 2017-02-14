@@ -11,30 +11,32 @@ end
 # gem 'capistrano-rails', group: :development
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',        '5.0.1'
+gem 'rails',          '5.0.1'
 # Use postgresql as the database for Active Record
-gem 'pg',           '0.18.4'
+gem 'pg',             '0.18.4'
 # Use Puma as the app server
-gem 'puma',         '3.6.2'
+gem 'puma',           '3.6.2'
 # Use SCSS for stylesheets
-gem 'sass-rails',   '5.0.6'
+gem 'sass-rails',     '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier',     '3.0.4'
+gem 'uglifier',       '3.0.4'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.1'
+gem 'coffee-rails',   '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.2.2'
+gem 'jquery-rails',   '4.2.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder',     '2.6.1'
+gem 'jbuilder',       '2.6.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Rails integration with bower
-# gem 'bower-rails',  '0.11.0'
+gem 'bower-rails',    '0.11.0'
+# Use of Moment.js
+gem 'momentjs-rails', '2.17.1'
 
 
 group :development, :test do
